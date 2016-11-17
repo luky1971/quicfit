@@ -1,0 +1,9 @@
+The data in corr.dat is from N-H_corr_p2.dat
+and the data in exp_s2.dat is from N-Hexp_s2_nt1000.dat
+in the g_correlate test files.
+
+The s2 values in exp_s2.dat were calculated by g_correlate using the vector formula
+
+S^2 = 3/2[⟨x^2⟩^2 + ⟨y^2⟩^2 + ⟨z^2⟩^2 + 2⟨xy⟩^2 + 2⟨xz⟩^2 + 2⟨yz⟩^2] - 1/2
+
+while quicfit uses least-squares regression to find S2.
